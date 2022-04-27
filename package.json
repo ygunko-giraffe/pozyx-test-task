@@ -2,6 +2,7 @@
   "name": "pozyx-test-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/pozyx-test-task",
   "scripts": {
     "start": "react-scripts start",
     "start:stage": "env-cmd -f .env.stage react-scripts start",
