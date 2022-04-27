@@ -1,0 +1,33 @@
+name: Deploy on Staging
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  ENVIRONMENT: stage
+
+jobs:
+  staging-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'yarn'
+
+      - name: Build
+        run: |
+          yarn install --frozen-lockfile
+          yarn run build:$ENVIRONMENT
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        with:
+          branch: gh-pages
+          folder: build
