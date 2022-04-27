@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5066c6f0.css",
-    "main.js": "/static/js/main.250f8421.js",
-    "static/js/787.d02c04d6.chunk.js": "/static/js/787.d02c04d6.chunk.js",
-    "index.html": "/index.html",
-    "main.5066c6f0.css.map": "/static/css/main.5066c6f0.css.map",
-    "main.250f8421.js.map": "/static/js/main.250f8421.js.map",
-    "787.d02c04d6.chunk.js.map": "/static/js/787.d02c04d6.chunk.js.map"
+    "main.css": "/pozyx-test-task/static/css/main.5066c6f0.css",
+    "main.js": "/pozyx-test-task/static/js/main.b9250d37.js",
+    "static/js/787.d02c04d6.chunk.js": "/pozyx-test-task/static/js/787.d02c04d6.chunk.js",
+    "index.html": "/pozyx-test-task/index.html",
+    "main.5066c6f0.css.map": "/pozyx-test-task/static/css/main.5066c6f0.css.map",
+    "main.b9250d37.js.map": "/pozyx-test-task/static/js/main.b9250d37.js.map",
+    "787.d02c04d6.chunk.js.map": "/pozyx-test-task/static/js/787.d02c04d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5066c6f0.css",
-    "static/js/main.250f8421.js"
+    "static/js/main.b9250d37.js"
   ]
 }
